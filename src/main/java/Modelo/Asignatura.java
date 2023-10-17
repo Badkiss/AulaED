@@ -1,23 +1,25 @@
 package Modelo;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlRootElement;
+
+import javax.xml.bind.annotation.*;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Asignatura {
     String nombre;
+    @XmlAttribute
     Integer nota;
     public Asignatura(){}
 
     public Asignatura(String nombre){
         this.nombre=nombre;
+        nota=(int)(Math.random()*11);
     }
 
     public String getNombre() {
         return nombre;
     }
+
 
     public Integer getNota() {
         return nota;

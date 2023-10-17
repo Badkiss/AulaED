@@ -2,15 +2,18 @@ package Modelo;
 
 import Controlador.CustomDateAdapter;
 
+
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+
 @XmlRootElement
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Alumno {
-  private  Nombre nombre;
-  private  Apellido apellido;
+  private  String nombre;
+  private  String apellido;
   private int año;
   @XmlTransient
   private Date fechaNac;
@@ -18,21 +21,34 @@ public class Alumno {
   private List<Asignatura> asignaturas;
 
   public Alumno(){}
-    public Alumno(Nombre nombre, Apellido apellido, int año, Date fechaNac) {
+    public Alumno(String nombre, String apellido, int año, Date fechaNac) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.año = año;
         this.fechaNac = fechaNac;
+        asignaturas=crearAsignatura(año);
     }
-
-    public Nombre getNombre() {
+    private List<Asignatura> rellenarPrimero(){
+      List<Asignatura> asignaturas=new ArrayList<>();
+      asignaturas.add(new Asignatura("Base_Datos"));
+      asignaturas.add(new Asignatura("Programacion"));
+      return asignaturas;
+    }
+    private List<Asignatura> crearAsignatura(int año) {
+      List<Asignatura> asignaturas1=new ArrayList<>();
+       asignaturas1.addAll(rellenarPrimero());
+       return asignaturas1;
+    }
+    @XmlElement
+    public String getNombre() {
         return nombre;
     }
-
-    public Apellido getApellido() {
+    @XmlElement
+    public String getApellido() {
         return apellido;
     }
 
+    @XmlElement
     public int getAño() {
         return año;
     }
@@ -40,8 +56,8 @@ public class Alumno {
     public Date getFechaNac() {
         return fechaNac;
     }
-    @XmlElementWrapper
-    public List<Asignatura> getAsignaturas() {
+    @XmlElementWrapper(name = "Asignaturas")
+    public List<Asignatura> getAsignatura() {
         return asignaturas;
     }
 
