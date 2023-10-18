@@ -10,13 +10,13 @@ import java.nio.file.Paths;
 import java.util.Optional;
 
 public class UnMar {
-    public static void unMarshall(){
+    public static Curso unMarshall(){
         try {
-            Path path= Paths.get("PrimerCurso.xml");
+            Path path= Paths.get("SegundoCurso.xml");
             JAXBContext context =JAXBContext.newInstance(Curso.class);
             Unmarshaller unmarshaller= context.createUnmarshaller();
             Curso primero= (Curso) (unmarshaller.unmarshal(path.toFile()));
-            primero.getAlumno().stream().forEach(p->System.out.println(p));
+            return primero;
 
         } catch (JAXBException e) {
             throw new RuntimeException(e);

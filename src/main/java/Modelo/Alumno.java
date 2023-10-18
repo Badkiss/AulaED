@@ -88,9 +88,16 @@ public class Alumno {
         }while (suspensosMaximos<contador);
         return asignaturas;
     }
-//    public List<Alumno> pasarCurso(List<Alumno>alumnos){
-//
-//    }
+
+    private int totalSuspendidas(){
+      int cont=0;
+      for (Asignatura asignatura:this.getAsignaturas()){
+          if (asignatura.getNota()<5){
+              cont++;
+          }
+      }
+      return cont;
+    }
     private List<Asignatura> crearAsignatura(int año) {
       List<Asignatura> asignaturas1=new ArrayList<>();
       if (año==1) {

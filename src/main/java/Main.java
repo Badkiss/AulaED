@@ -10,6 +10,9 @@ public class Main {
         Curso segundo=Iniciador.iniciarSegundo();
         Mar.marshall(primero,segundo);
         Dom.domCrear(primero,segundo);
-        UnMar.unMarshall();
+        segundo=UnMar.unMarshall();
+        segundo.setAlumno(Curso.pasarCursoSegundo(segundo.getAlumno()));
+        Mar.marshall(primero,segundo);
+
     }
 }
