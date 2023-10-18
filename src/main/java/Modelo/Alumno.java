@@ -29,14 +29,57 @@ public class Alumno {
         asignaturas=crearAsignatura(año);
     }
     private List<Asignatura> rellenarPrimero(){
-      List<Asignatura> asignaturas=new ArrayList<>();
+      List<Asignatura> asignaturas;
+        int suspensosMaximos=3;
+        int contador=0;
+        do {
+            contador=0;
+            asignaturas=new ArrayList<>();
       asignaturas.add(new Asignatura("Base_Datos"));
       asignaturas.add(new Asignatura("Programacion"));
+      asignaturas.add(new Asignatura("FOL"));
+      asignaturas.add(new Asignatura("Entornos_Desarrollo"));
+      asignaturas.add(new Asignatura("Lenguaje de marcas"));
+      asignaturas.add(new Asignatura("Sistemas"));
+            for (Asignatura asignatura:asignaturas) {
+                if(asignatura.getNota()<5){
+                    contador++;
+                }
+            }
+        }while (suspensosMaximos<contador);
       return asignaturas;
     }
+    private List<Asignatura> rellenarSegundo(){
+        List<Asignatura> asignaturas;
+        int suspensosMaximos=3;
+        int contador=0;
+        do {
+            contador=0;
+            asignaturas=new ArrayList<>();
+        asignaturas.add(new Asignatura("Acceso_datos"));
+        asignaturas.add(new Asignatura("Programacion_Multimedia"));
+        asignaturas.add(new Asignatura("Programacion_Servicios"));
+        asignaturas.add(new Asignatura("Diseño_Interfaces"));
+        asignaturas.add(new Asignatura("Sistemas_Empresariales"));
+        asignaturas.add(new Asignatura("EIE"));
+        for (Asignatura asignatura:asignaturas) {
+            if(asignatura.getNota()<5){
+                contador++;
+            }
+        }
+        }while (suspensosMaximos<contador);
+        return asignaturas;
+    }
+//    public List<Alumno> pasarCurso(List<Alumno>alumnos){
+//
+//    }
     private List<Asignatura> crearAsignatura(int año) {
       List<Asignatura> asignaturas1=new ArrayList<>();
-       asignaturas1.addAll(rellenarPrimero());
+      if (año==1) {
+          asignaturas1.addAll(rellenarPrimero());
+      }else {
+          asignaturas1.addAll(rellenarSegundo());
+      }
        return asignaturas1;
     }
     @XmlElement

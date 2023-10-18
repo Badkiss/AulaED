@@ -17,23 +17,14 @@ import java.util.Date;
 import java.util.List;
 
 public class Mar {
-    public static void marshall(){
+    public static void marshall(Curso primero,Curso segundo){
         try {
-            Curso primero =new Curso();
-            Curso segundo =new Curso();
-            SimpleDateFormat simpleDateFormat=new SimpleDateFormat("dd/MM/yyyy");
-            Date date= simpleDateFormat.parse("23/08/1999");
-            List<Alumno> alumnos=new ArrayList<>();
-            for (int i = 0; i < 24; i++) {
-                alumnos.add(new Alumno("Alx","grux",1,date));
-            }
-            primero.setAlumnos(alumnos);
             JAXBContext context=JAXBContext.newInstance(Curso.class);
             Marshaller marshaller= context.createMarshaller();
-            Path path= Paths.get("PrimerCurso.xml");
-            marshaller.marshal(primero, Files.newOutputStream(path));
-        } catch (ParseException e) {
-            throw new RuntimeException(e);
+            Path path1= Paths.get("PrimerCurso.xml");
+            Path path2= Paths.get("SegundoCurso.xml");
+            marshaller.marshal(primero, Files.newOutputStream(path1));
+            marshaller.marshal(segundo, Files.newOutputStream(path2));
         } catch (JAXBException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
