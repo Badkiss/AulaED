@@ -16,6 +16,7 @@ public class Asignatura {
         nota=(int)(Math.random()*11);
     }
 
+
     public String getNombre() {
         return nombre;
     }
@@ -29,7 +30,15 @@ public class Asignatura {
         this.nombre = nombre;
     }
 
-    public void setNota() {
-        nota=(int)(Math.random()*11);
+    public void setNota(Integer nota) {
+        this.nota = nota;
+    }
+
+    @Override
+    public String toString() {
+        return "Asignatura{" +
+                "nombre='" + nombre + '\'' +
+                ", nota=" + nota +
+                '}';
     }
 }

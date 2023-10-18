@@ -39,12 +39,21 @@ public class Dom {
        for (Alumno alumno: primero.getAlumno()){
            Element eAlumno=doc.createElement("alumno");
            alumnos.appendChild(eAlumno);
+           Element eNombre=doc.createElement("nombre");
+           eNombre.appendChild(doc.createTextNode(alumno.getNombre()));
+           eAlumno.appendChild(eNombre);
            Element eApellido=doc.createElement("apellido");
            eApellido.appendChild(doc.createTextNode(alumno.getApellido()));
            eAlumno.appendChild(eApellido);
+           Element eAño=doc.createElement("año");
+           eAño.appendChild(doc.createTextNode(alumno.getAño()+""));
+           eAlumno.appendChild(eAño);
+           Element eFechaNac=doc.createElement("fechaNac");
+           eFechaNac.appendChild(doc.createTextNode(simpleDateFormat.format(alumno.getFechaNac())));
+           eAlumno.appendChild(eFechaNac);
            Element eAsignaturas=doc.createElement("Asignaturas");
            eAlumno.appendChild(eAsignaturas);
-           for (Asignatura asignatura: alumno.getAsignatura()){
+           for (Asignatura asignatura: alumno.getAsignaturas()){
                Element eAsignatura=doc.createElement("asignatura");
                Attr attr=doc.createAttribute("nota");
                attr.setValue(asignatura.getNota()+"");
@@ -52,15 +61,8 @@ public class Dom {
                eAsignatura.appendChild(doc.createTextNode(asignatura.getNombre()));
                eAsignaturas.appendChild(eAsignatura);
            }
-           Element eAño=doc.createElement("año");
-           eAño.appendChild(doc.createTextNode(alumno.getAño()+""));
-           eAlumno.appendChild(eAño);
-           Element eFechaNac=doc.createElement("fechaNac");
-           eFechaNac.appendChild(doc.createTextNode(simpleDateFormat.format(alumno.getFechaNac())));
-           eAlumno.appendChild(eFechaNac);
-           Element eNombre=doc.createElement("nombre");
-           eNombre.appendChild(doc.createTextNode(alumno.getNombre()));
-           eAlumno.appendChild(eNombre);
+
+
        }
 
             TransformerFactory transformerFactory=TransformerFactory.newInstance();
@@ -79,12 +81,21 @@ public class Dom {
             for (Alumno alumno: segundo.getAlumno()){
                 Element eAlumno=doc2.createElement("alumno");
                 eAlumnos2.appendChild(eAlumno);
+                Element eNombre=doc2.createElement("nombre");
+                eNombre.appendChild(doc2.createTextNode(alumno.getNombre()));
+                eAlumno.appendChild(eNombre);
                 Element eApellido=doc2.createElement("apellido");
                 eApellido.appendChild(doc2.createTextNode(alumno.getApellido()));
                 eAlumno.appendChild(eApellido);
+                Element eAño=doc2.createElement("año");
+                eAño.appendChild(doc2.createTextNode(alumno.getAño()+""));
+                eAlumno.appendChild(eAño);
+                Element eFechaNac=doc2.createElement("fechaNac");
+                eFechaNac.appendChild(doc2.createTextNode(simpleDateFormat.format(alumno.getFechaNac())));
+                eAlumno.appendChild(eFechaNac);
                 Element eAsignaturas=doc2.createElement("Asignaturas");
                 eAlumno.appendChild(eAsignaturas);
-                for (Asignatura asignatura: alumno.getAsignatura()){
+                for (Asignatura asignatura: alumno.getAsignaturas()){
                     Element eAsignatura=doc2.createElement("asignatura");
                     Attr attr=doc2.createAttribute("nota");
                     attr.setValue(asignatura.getNota()+"");
@@ -92,15 +103,7 @@ public class Dom {
                     eAsignatura.appendChild(doc2.createTextNode(asignatura.getNombre()));
                     eAsignaturas.appendChild(eAsignatura);
                 }
-                Element eAño=doc2.createElement("año");
-                eAño.appendChild(doc2.createTextNode(alumno.getAño()+""));
-                eAlumno.appendChild(eAño);
-                Element eFechaNac=doc2.createElement("fechaNac");
-                eFechaNac.appendChild(doc2.createTextNode(simpleDateFormat.format(alumno.getFechaNac())));
-                eAlumno.appendChild(eFechaNac);
-                Element eNombre=doc2.createElement("nombre");
-                eNombre.appendChild(doc2.createTextNode(alumno.getNombre()));
-                eAlumno.appendChild(eNombre);
+
             }
             TransformerFactory transformerFactory2=TransformerFactory.newInstance();
             Transformer transformer2= transformerFactory2.newTransformer();

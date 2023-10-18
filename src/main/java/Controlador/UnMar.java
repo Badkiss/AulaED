@@ -16,6 +16,7 @@ public class UnMar {
             JAXBContext context =JAXBContext.newInstance(Curso.class);
             Unmarshaller unmarshaller= context.createUnmarshaller();
             Curso primero= (Curso) (unmarshaller.unmarshal(path.toFile()));
+            primero.getAlumno().stream().forEach(p->System.out.println(p));
 
         } catch (JAXBException e) {
             throw new RuntimeException(e);

@@ -11,6 +11,7 @@ import java.util.List;
 
 
 @XmlRootElement
+@XmlType(propOrder = {"nombre","apellido","año","fechaNac","asignaturas"})
 public class Alumno {
   private  String nombre;
   private  String apellido;
@@ -21,6 +22,23 @@ public class Alumno {
   private List<Asignatura> asignaturas;
 
   public Alumno(){}
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setAño(int año) {
+        this.año = año;
+    }
+
+    public void setFechaNac(Date fechaNac) {
+        this.fechaNac = fechaNac;
+    }
+
     public Alumno(String nombre, String apellido, int año, Date fechaNac) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -100,11 +118,22 @@ public class Alumno {
         return fechaNac;
     }
     @XmlElementWrapper(name = "Asignaturas")
-    public List<Asignatura> getAsignatura() {
+    public List<Asignatura> getAsignaturas() {
         return asignaturas;
     }
 
     public void setAsignaturas(List<Asignatura> asignaturas) {
         this.asignaturas = asignaturas;
+    }
+
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", año=" + año +
+                ", fechaNac=" + fechaNac +
+                ", asignaturas=" + asignaturas +
+                '}';
     }
 }
