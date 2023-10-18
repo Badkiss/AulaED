@@ -2,12 +2,13 @@ package Modelo;
 
 
 import javax.xml.bind.annotation.*;
+import java.util.Objects;
 
 @XmlRootElement
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Asignatura {
+
     String nombre;
-    @XmlAttribute
+
     Integer nota;
     public Asignatura(){}
 
@@ -16,12 +17,13 @@ public class Asignatura {
         nota=(int)(Math.random()*11);
     }
 
+    @XmlElement
 
     public String getNombre() {
         return nombre;
     }
 
-
+    @XmlAttribute
     public Integer getNota() {
         return nota;
     }
@@ -40,5 +42,20 @@ public class Asignatura {
                 "nombre='" + nombre + '\'' +
                 ", nota=" + nota +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if(o instanceof Asignatura){
+            Asignatura asignatura=(Asignatura) (o);
+            return asignatura.getNombre().equals(this.getNombre());
+        }else {
+            return false;
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, nota);
     }
 }

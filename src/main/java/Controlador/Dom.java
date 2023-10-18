@@ -11,7 +11,6 @@ import org.w3c.dom.Element;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.stream.events.EndElement;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -19,11 +18,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 
 public class Dom {
     public static void domCrear(Curso primero ,Curso segundo){
@@ -64,7 +59,6 @@ public class Dom {
 
 
        }
-
             TransformerFactory transformerFactory=TransformerFactory.newInstance();
             Transformer transformer= transformerFactory.newTransformer();
             DOMSource source=new DOMSource(doc);

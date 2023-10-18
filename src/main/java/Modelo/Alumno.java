@@ -44,7 +44,7 @@ public class Alumno {
         this.apellido = apellido;
         this.año = año;
         this.fechaNac = fechaNac;
-        asignaturas=crearAsignatura(año);
+        asignaturas =crearAsignatura(año);
     }
     private List<Asignatura> rellenarPrimero(){
       List<Asignatura> asignaturas;
@@ -125,6 +125,7 @@ public class Alumno {
         return fechaNac;
     }
     @XmlElementWrapper(name = "Asignaturas")
+    @XmlElement(name = "asignatura")
     public List<Asignatura> getAsignaturas() {
         return asignaturas;
     }
