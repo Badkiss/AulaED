@@ -128,7 +128,11 @@ public class Dom {
             NodeList alumnos=doc.getElementsByTagName("Alumnos");
             Element alumno= (Element)(alumnos.item(0));
            NodeList alumnosBien =alumno.getElementsByTagName("alumno");
+            for (int i = 0; i < alumnosBien.getLength(); i++) {
+                Node alumnoB=alumnosBien.item(i);
+                Element alumnoMuyBien=(Element) alumnoB;
 
+            }
 
         } catch (IOException e) {
             throw new RuntimeException(e);
