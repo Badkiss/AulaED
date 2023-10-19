@@ -50,7 +50,6 @@ public class Curso {
         this.alumno = alumno;
     }
     public static List<Alumno> pasarCursoPrimero(List<Alumno> alumnos) {
-        List<Alumno> alumnos2=new ArrayList<>();
         for (Alumno alumno:alumnos) {
             Iterator<Asignatura> itr=alumno.getAsignaturas().iterator();
             while (itr.hasNext()){

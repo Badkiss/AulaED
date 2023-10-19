@@ -126,6 +126,8 @@ public class Dom {
 
             doc.getDocumentElement().normalize();
             NodeList alumnos=doc.getElementsByTagName("Alumnos");
+            Element alumno= (Element)(alumnos.item(0));
+           NodeList alumnosBien =alumno.getElementsByTagName("alumno");
 
 
         } catch (IOException e) {

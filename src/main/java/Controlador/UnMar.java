@@ -10,9 +10,9 @@ import java.nio.file.Paths;
 import java.util.Optional;
 
 public class UnMar {
-    public static Curso unMarshall(){
+    public static Curso unMarshall(Path path){
         try {
-            Path path= Paths.get("SegundoCurso.xml");
+
             JAXBContext context =JAXBContext.newInstance(Curso.class);
             Unmarshaller unmarshaller= context.createUnmarshaller();
             Curso primero= (Curso) (unmarshaller.unmarshal(path.toFile()));

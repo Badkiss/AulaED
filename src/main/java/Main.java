@@ -18,20 +18,21 @@ public class Main {
         Mar.marshall(primeroJ,segundoJ);
         Dom.domCrear(primeroD,segundoD);
 
-        segundoJ=UnMar.unMarshall();
-        primeroJ=UnMar.unMarshall();
+        primeroJ=UnMar.unMarshall(Paths.get("PrimerCurso.xml"));
+        segundoJ=UnMar.unMarshall(Paths.get("SegundoCurso.xml"));
 
         primeroD=Dom.domRecoger(Paths.get("DomPrimero.xml"));
         segundoD=Dom.domRecoger(Paths.get("DomSegundo.xml"));
 
 
         primeroJ.setAlumno(Curso.pasarCursoPrimero(primeroJ.getAlumno()));
+
+
         segundoJ.setAlumno(Curso.pasarCursoSegundo(segundoJ.getAlumno()));
         segundoJ.getAlumno().addAll(primeroJ.getAlumno().stream().filter(alumno -> alumno.getAsignaturas().size()<3).collect(Collectors.toList()));
         primeroJ.setAlumno(Curso.nuevoAño(primeroJ.getAlumno()));
         primeroJ.setAlumno(Curso.rellenarFaltantesPrimero(primeroJ.getAlumno()));
         segundoJ.setAlumno(Curso.nuevoAñoSegundo(segundoJ.getAlumno()));
-
         Mar.marshall(primeroJ,segundoJ);
 
     }
