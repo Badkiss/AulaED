@@ -65,9 +65,10 @@ public class Alumno {
                 }
             }
         }while (suspensosMaximos<contador);
+
       return asignaturas;
     }
-    private List<Asignatura> rellenarSegundo(){
+    public List<Asignatura> rellenarSegundo(){
         List<Asignatura> asignaturas;
         int suspensosMaximos=3;
         int contador=0;
@@ -86,6 +87,7 @@ public class Alumno {
             }
         }
         }while (suspensosMaximos<contador);
+
         return asignaturas;
     }
 

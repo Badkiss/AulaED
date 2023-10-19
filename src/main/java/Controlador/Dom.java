@@ -4,9 +4,8 @@ package Controlador;
 import Modelo.Alumno;
 import Modelo.Asignatura;
 import Modelo.Curso;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+import org.w3c.dom.*;
+import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -18,6 +17,10 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 
 public class Dom {
@@ -114,4 +117,24 @@ public class Dom {
         }
     }
 
+    public static Curso domRecoger(Path path) {
+        try {
+            InputStream inputStream= Files.newInputStream(path);
+            DocumentBuilderFactory documentBuilderFactory=DocumentBuilderFactory.newDefaultInstance();
+            DocumentBuilder documentBuilder= documentBuilderFactory.newDocumentBuilder();
+            Document doc=documentBuilder.parse(inputStream);
+
+            doc.getDocumentElement().normalize();
+            NodeList alumnos=doc.getElementsByTagName("Alumnos");
+
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (ParserConfigurationException e) {
+            throw new RuntimeException(e);
+        } catch (SAXException e) {
+            throw new RuntimeException(e);
+        }
+        return null;
+    }
 }

@@ -35,7 +35,9 @@ public class Asignatura {
     public void setNota(Integer nota) {
         this.nota = nota;
     }
-
+    public void setNotaAleatoria(){
+        this.nota=(int)(Math.random()*11);
+    }
     @Override
     public String toString() {
         return "Asignatura{" +
