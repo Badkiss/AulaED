@@ -1,1 +1,326 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><curso><Alumnos><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="0">Base_Datos</asignatura><asignatura nota="7">Programacion</asignatura><asignatura nota="10">FOL</asignatura><asignatura nota="8">Entornos_Desarrollo</asignatura><asignatura nota="9">Lenguaje de marcas</asignatura><asignatura nota="7">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="8">Base_Datos</asignatura><asignatura nota="8">Programacion</asignatura><asignatura nota="6">FOL</asignatura><asignatura nota="5">Entornos_Desarrollo</asignatura><asignatura nota="5">Lenguaje de marcas</asignatura><asignatura nota="1">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="6">Base_Datos</asignatura><asignatura nota="6">Programacion</asignatura><asignatura nota="0">FOL</asignatura><asignatura nota="10">Entornos_Desarrollo</asignatura><asignatura nota="6">Lenguaje de marcas</asignatura><asignatura nota="4">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="9">Base_Datos</asignatura><asignatura nota="10">Programacion</asignatura><asignatura nota="6">FOL</asignatura><asignatura nota="4">Entornos_Desarrollo</asignatura><asignatura nota="2">Lenguaje de marcas</asignatura><asignatura nota="3">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="3">Base_Datos</asignatura><asignatura nota="6">Programacion</asignatura><asignatura nota="6">FOL</asignatura><asignatura nota="10">Entornos_Desarrollo</asignatura><asignatura nota="8">Lenguaje de marcas</asignatura><asignatura nota="3">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="9">Base_Datos</asignatura><asignatura nota="2">Programacion</asignatura><asignatura nota="0">FOL</asignatura><asignatura nota="8">Entornos_Desarrollo</asignatura><asignatura nota="9">Lenguaje de marcas</asignatura><asignatura nota="5">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="6">Base_Datos</asignatura><asignatura nota="10">Programacion</asignatura><asignatura nota="4">FOL</asignatura><asignatura nota="5">Entornos_Desarrollo</asignatura><asignatura nota="7">Lenguaje de marcas</asignatura><asignatura nota="6">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="7">Base_Datos</asignatura><asignatura nota="2">Programacion</asignatura><asignatura nota="1">FOL</asignatura><asignatura nota="10">Entornos_Desarrollo</asignatura><asignatura nota="10">Lenguaje de marcas</asignatura><asignatura nota="1">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="3">Base_Datos</asignatura><asignatura nota="10">Programacion</asignatura><asignatura nota="10">FOL</asignatura><asignatura nota="10">Entornos_Desarrollo</asignatura><asignatura nota="8">Lenguaje de marcas</asignatura><asignatura nota="6">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="0">Base_Datos</asignatura><asignatura nota="1">Programacion</asignatura><asignatura nota="6">FOL</asignatura><asignatura nota="6">Entornos_Desarrollo</asignatura><asignatura nota="5">Lenguaje de marcas</asignatura><asignatura nota="0">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="7">Base_Datos</asignatura><asignatura nota="5">Programacion</asignatura><asignatura nota="7">FOL</asignatura><asignatura nota="4">Entornos_Desarrollo</asignatura><asignatura nota="8">Lenguaje de marcas</asignatura><asignatura nota="8">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="6">Base_Datos</asignatura><asignatura nota="2">Programacion</asignatura><asignatura nota="8">FOL</asignatura><asignatura nota="3">Entornos_Desarrollo</asignatura><asignatura nota="7">Lenguaje de marcas</asignatura><asignatura nota="0">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="10">Base_Datos</asignatura><asignatura nota="1">Programacion</asignatura><asignatura nota="4">FOL</asignatura><asignatura nota="9">Entornos_Desarrollo</asignatura><asignatura nota="7">Lenguaje de marcas</asignatura><asignatura nota="2">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="4">Base_Datos</asignatura><asignatura nota="1">Programacion</asignatura><asignatura nota="9">FOL</asignatura><asignatura nota="4">Entornos_Desarrollo</asignatura><asignatura nota="5">Lenguaje de marcas</asignatura><asignatura nota="8">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="5">Base_Datos</asignatura><asignatura nota="3">Programacion</asignatura><asignatura nota="1">FOL</asignatura><asignatura nota="5">Entornos_Desarrollo</asignatura><asignatura nota="2">Lenguaje de marcas</asignatura><asignatura nota="6">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="4">Base_Datos</asignatura><asignatura nota="1">Programacion</asignatura><asignatura nota="8">FOL</asignatura><asignatura nota="10">Entornos_Desarrollo</asignatura><asignatura nota="4">Lenguaje de marcas</asignatura><asignatura nota="5">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="6">Base_Datos</asignatura><asignatura nota="7">Programacion</asignatura><asignatura nota="2">FOL</asignatura><asignatura nota="7">Entornos_Desarrollo</asignatura><asignatura nota="9">Lenguaje de marcas</asignatura><asignatura nota="6">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="3">Base_Datos</asignatura><asignatura nota="9">Programacion</asignatura><asignatura nota="1">FOL</asignatura><asignatura nota="10">Entornos_Desarrollo</asignatura><asignatura nota="5">Lenguaje de marcas</asignatura><asignatura nota="5">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="8">Base_Datos</asignatura><asignatura nota="4">Programacion</asignatura><asignatura nota="6">FOL</asignatura><asignatura nota="3">Entornos_Desarrollo</asignatura><asignatura nota="5">Lenguaje de marcas</asignatura><asignatura nota="2">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="10">Base_Datos</asignatura><asignatura nota="4">Programacion</asignatura><asignatura nota="8">FOL</asignatura><asignatura nota="3">Entornos_Desarrollo</asignatura><asignatura nota="0">Lenguaje de marcas</asignatura><asignatura nota="6">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="3">Base_Datos</asignatura><asignatura nota="5">Programacion</asignatura><asignatura nota="2">FOL</asignatura><asignatura nota="5">Entornos_Desarrollo</asignatura><asignatura nota="4">Lenguaje de marcas</asignatura><asignatura nota="6">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="1">Base_Datos</asignatura><asignatura nota="6">Programacion</asignatura><asignatura nota="7">FOL</asignatura><asignatura nota="5">Entornos_Desarrollo</asignatura><asignatura nota="3">Lenguaje de marcas</asignatura><asignatura nota="6">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="1">Base_Datos</asignatura><asignatura nota="3">Programacion</asignatura><asignatura nota="6">FOL</asignatura><asignatura nota="10">Entornos_Desarrollo</asignatura><asignatura nota="2">Lenguaje de marcas</asignatura><asignatura nota="7">Sistemas</asignatura></Asignaturas></alumno><alumno><nombre>Alx</nombre><apellido>grux</apellido><año>1</año><fechaNac>23/08/1999</fechaNac><Asignaturas><asignatura nota="9">Base_Datos</asignatura><asignatura nota="7">Programacion</asignatura><asignatura nota="2">FOL</asignatura><asignatura nota="1">Entornos_Desarrollo</asignatura><asignatura nota="9">Lenguaje de marcas</asignatura><asignatura nota="8">Sistemas</asignatura></Asignaturas></alumno></Alumnos></curso>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<curso>
+    <Alumnos>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="6">Programacion</asignatura>
+                <asignatura nota="10">Entornos_Desarrollo</asignatura>
+                <asignatura nota="7">Sistemas</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="5">Programacion</asignatura>
+                <asignatura nota="4">Acceso_datos</asignatura>
+                <asignatura nota="2">Programacion_Multimedia</asignatura>
+                <asignatura nota="0">Programacion_Servicios</asignatura>
+                <asignatura nota="8">Diseño_Interfaces</asignatura>
+                <asignatura nota="8">Sistemas_Empresariales</asignatura>
+                <asignatura nota="9">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="2">Programacion</asignatura>
+                <asignatura nota="7">Entornos_Desarrollo</asignatura>
+                <asignatura nota="5">Lenguaje de marcas</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="6">Entornos_Desarrollo</asignatura>
+                <asignatura nota="7">Acceso_datos</asignatura>
+                <asignatura nota="7">Programacion_Multimedia</asignatura>
+                <asignatura nota="4">Programacion_Servicios</asignatura>
+                <asignatura nota="9">Diseño_Interfaces</asignatura>
+                <asignatura nota="5">Sistemas_Empresariales</asignatura>
+                <asignatura nota="2">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="10">Programacion</asignatura>
+                <asignatura nota="6">Entornos_Desarrollo</asignatura>
+                <asignatura nota="9">Acceso_datos</asignatura>
+                <asignatura nota="8">Programacion_Multimedia</asignatura>
+                <asignatura nota="6">Programacion_Servicios</asignatura>
+                <asignatura nota="1">Diseño_Interfaces</asignatura>
+                <asignatura nota="5">Sistemas_Empresariales</asignatura>
+                <asignatura nota="2">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="3">Base_Datos</asignatura>
+                <asignatura nota="10">Programacion</asignatura>
+                <asignatura nota="5">FOL</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="5">Programacion</asignatura>
+                <asignatura nota="0">FOL</asignatura>
+                <asignatura nota="5">Entornos_Desarrollo</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="8">Base_Datos</asignatura>
+                <asignatura nota="9">Entornos_Desarrollo</asignatura>
+                <asignatura nota="2">Sistemas</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="5">Acceso_datos</asignatura>
+                <asignatura nota="2">Programacion_Multimedia</asignatura>
+                <asignatura nota="5">Programacion_Servicios</asignatura>
+                <asignatura nota="4">Diseño_Interfaces</asignatura>
+                <asignatura nota="7">Sistemas_Empresariales</asignatura>
+                <asignatura nota="4">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="3">Programacion</asignatura>
+                <asignatura nota="6">FOL</asignatura>
+                <asignatura nota="5">Acceso_datos</asignatura>
+                <asignatura nota="5">Programacion_Multimedia</asignatura>
+                <asignatura nota="2">Programacion_Servicios</asignatura>
+                <asignatura nota="5">Diseño_Interfaces</asignatura>
+                <asignatura nota="4">Sistemas_Empresariales</asignatura>
+                <asignatura nota="5">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="4">Base_Datos</asignatura>
+                <asignatura nota="5">Programacion</asignatura>
+                <asignatura nota="4">Entornos_Desarrollo</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="10">Programacion</asignatura>
+                <asignatura nota="9">Acceso_datos</asignatura>
+                <asignatura nota="9">Programacion_Multimedia</asignatura>
+                <asignatura nota="6">Programacion_Servicios</asignatura>
+                <asignatura nota="1">Diseño_Interfaces</asignatura>
+                <asignatura nota="2">Sistemas_Empresariales</asignatura>
+                <asignatura nota="10">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="8">Programacion</asignatura>
+                <asignatura nota="6">Entornos_Desarrollo</asignatura>
+                <asignatura nota="10">Acceso_datos</asignatura>
+                <asignatura nota="10">Programacion_Multimedia</asignatura>
+                <asignatura nota="0">Programacion_Servicios</asignatura>
+                <asignatura nota="7">Diseño_Interfaces</asignatura>
+                <asignatura nota="1">Sistemas_Empresariales</asignatura>
+                <asignatura nota="0">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="5">Entornos_Desarrollo</asignatura>
+                <asignatura nota="2">Lenguaje de marcas</asignatura>
+                <asignatura nota="7">Sistemas</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="1">Programacion</asignatura>
+                <asignatura nota="5">Sistemas</asignatura>
+                <asignatura nota="6">Acceso_datos</asignatura>
+                <asignatura nota="0">Programacion_Multimedia</asignatura>
+                <asignatura nota="2">Programacion_Servicios</asignatura>
+                <asignatura nota="9">Diseño_Interfaces</asignatura>
+                <asignatura nota="10">Sistemas_Empresariales</asignatura>
+                <asignatura nota="6">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="3">Lenguaje de marcas</asignatura>
+                <asignatura nota="4">Acceso_datos</asignatura>
+                <asignatura nota="5">Programacion_Multimedia</asignatura>
+                <asignatura nota="6">Programacion_Servicios</asignatura>
+                <asignatura nota="10">Diseño_Interfaces</asignatura>
+                <asignatura nota="2">Sistemas_Empresariales</asignatura>
+                <asignatura nota="10">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="5">Base_Datos</asignatura>
+                <asignatura nota="5">Programacion</asignatura>
+                <asignatura nota="9">FOL</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="5">Programacion</asignatura>
+                <asignatura nota="6">Sistemas</asignatura>
+                <asignatura nota="10">Acceso_datos</asignatura>
+                <asignatura nota="6">Programacion_Multimedia</asignatura>
+                <asignatura nota="2">Programacion_Servicios</asignatura>
+                <asignatura nota="0">Diseño_Interfaces</asignatura>
+                <asignatura nota="5">Sistemas_Empresariales</asignatura>
+                <asignatura nota="4">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="8">Base_Datos</asignatura>
+                <asignatura nota="4">Entornos_Desarrollo</asignatura>
+                <asignatura nota="9">Lenguaje de marcas</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="6">Programacion</asignatura>
+                <asignatura nota="3">Sistemas</asignatura>
+                <asignatura nota="9">Acceso_datos</asignatura>
+                <asignatura nota="9">Programacion_Multimedia</asignatura>
+                <asignatura nota="1">Programacion_Servicios</asignatura>
+                <asignatura nota="4">Diseño_Interfaces</asignatura>
+                <asignatura nota="5">Sistemas_Empresariales</asignatura>
+                <asignatura nota="5">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="2">Acceso_datos</asignatura>
+                <asignatura nota="3">Programacion_Multimedia</asignatura>
+                <asignatura nota="0">Programacion_Servicios</asignatura>
+                <asignatura nota="5">Diseño_Interfaces</asignatura>
+                <asignatura nota="5">Sistemas_Empresariales</asignatura>
+                <asignatura nota="7">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="2">Base_Datos</asignatura>
+                <asignatura nota="3">Programacion</asignatura>
+                <asignatura nota="4">Lenguaje de marcas</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>2</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="3">Entornos_Desarrollo</asignatura>
+                <asignatura nota="2">Lenguaje de marcas</asignatura>
+                <asignatura nota="8">Acceso_datos</asignatura>
+                <asignatura nota="5">Programacion_Multimedia</asignatura>
+                <asignatura nota="4">Programacion_Servicios</asignatura>
+                <asignatura nota="7">Diseño_Interfaces</asignatura>
+                <asignatura nota="10">Sistemas_Empresariales</asignatura>
+                <asignatura nota="5">EIE</asignatura>
+            </Asignaturas>
+        </alumno>
+        <alumno>
+            <nombre>Alx</nombre>
+            <apellido>grux</apellido>
+            <año>1</año>
+            <fechaNac>23/08/1999</fechaNac>
+            <Asignaturas>
+                <asignatura nota="7">Base_Datos</asignatura>
+                <asignatura nota="6">FOL</asignatura>
+                <asignatura nota="8">Entornos_Desarrollo</asignatura>
+            </Asignaturas>
+        </alumno>
+    </Alumnos>
+</curso>

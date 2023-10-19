@@ -16,6 +16,10 @@ public class Asignatura {
         this.nombre=nombre;
         nota=(int)(Math.random()*11);
     }
+    public Asignatura(String nombre,Integer nota){
+        this.nombre=nombre;
+        this.nota=nota;
+    }
 
     @XmlElement
 

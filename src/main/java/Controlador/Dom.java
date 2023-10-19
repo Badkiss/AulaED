@@ -21,10 +21,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Dom {
     public static void domCrear(Curso primero ,Curso segundo){
+
         try {
             SimpleDateFormat simpleDateFormat=new SimpleDateFormat("dd/MM/yyyy");
        DocumentBuilderFactory documentBuilderFactory=DocumentBuilderFactory.newDefaultInstance();
@@ -118,6 +122,10 @@ public class Dom {
     }
 
     public static Curso domRecoger(Path path) {
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("dd/MM/yyyy");
+        Curso curso=new Curso();
+        List<Alumno> alumnosList=new ArrayList<>();
+        List<Asignatura> asignaturasList =new ArrayList<>();
         try {
             InputStream inputStream= Files.newInputStream(path);
             DocumentBuilderFactory documentBuilderFactory=DocumentBuilderFactory.newDefaultInstance();
@@ -131,8 +139,26 @@ public class Dom {
             for (int i = 0; i < alumnosBien.getLength(); i++) {
                 Node alumnoB=alumnosBien.item(i);
                 Element alumnoMuyBien=(Element) alumnoB;
+                NodeList Asignaturas= alumnoMuyBien.getElementsByTagName("Asignaturas");
+                Element asignaturas=(Element) (Asignaturas.item(0));
+                NodeList asignaturasBien=asignaturas.getElementsByTagName("asignatura");
+                for (int j = 0; j < asignaturasBien.getLength(); j++) {
+                    Node asignatura=asignaturasBien.item(j);
+                    if (asignatura.getNodeType()==Node.ELEMENT_NODE){
+                        asignaturasList.add(new Asignatura(asignatura.getTextContent(),Integer.parseInt(asignatura.getAttributes().item(0).getTextContent())));
+                    }
 
+                }
+                alumnosList.add(new Alumno
+                        (alumnoMuyBien.getElementsByTagName("nombre").item(0).getTextContent(),
+                                alumnoMuyBien.getElementsByTagName("apellido").item(0).getTextContent(),
+                                Integer.parseInt(alumnoMuyBien.getElementsByTagName("año").item(0).getTextContent()),
+                                simpleDateFormat.parse(alumnoMuyBien.getElementsByTagName("fechaNac").item(0).getTextContent()),
+                                asignaturasList));
+                asignaturasList=new ArrayList<>();
             }
+            curso.setAlumno(alumnosList);
+            return curso;
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -140,7 +166,8 @@ public class Dom {
             throw new RuntimeException(e);
         } catch (SAXException e) {
             throw new RuntimeException(e);
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
         }
-        return null;
     }
 }

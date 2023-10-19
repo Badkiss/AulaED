@@ -22,6 +22,20 @@ public class Alumno {
   private List<Asignatura> asignaturas;
 
   public Alumno(){}
+    public Alumno(String nombre, String apellido, int año, Date fechaNac) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.año = año;
+        this.fechaNac = fechaNac;
+        asignaturas =crearAsignatura(año);
+    }
+    public Alumno(String nombre, String apellido, int año, Date fechaNac,List<Asignatura>asignaturas) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.año = año;
+        this.fechaNac = fechaNac;
+        this.asignaturas=asignaturas;
+    }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -39,13 +53,7 @@ public class Alumno {
         this.fechaNac = fechaNac;
     }
 
-    public Alumno(String nombre, String apellido, int año, Date fechaNac) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.año = año;
-        this.fechaNac = fechaNac;
-        asignaturas =crearAsignatura(año);
-    }
+
     private List<Asignatura> rellenarPrimero(){
       List<Asignatura> asignaturas;
         int suspensosMaximos=3;
