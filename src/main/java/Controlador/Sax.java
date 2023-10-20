@@ -39,14 +39,15 @@ public class Sax {
                     }
                     if (qName.equals("asignatura")){
                         String nota=attributes.getValue("nota");
-                        System.out.print("Asignatura "+nota);
+                        String nombre=attributes.getValue("nombre");
+                        System.out.println("Asignatura "+nombre+" nota "+nota);
                         asignatura=true;
                     }
                 }
                 public void endElement(String uri, String localName, String qName){
                                 if (qName.equals("alumno")){
-                                    System.out.println("");
-                                    System.out.println("");
+                                    System.out.println();
+                                    System.out.println();
                                 }
                 }
                 public void characters(char ch[], int start, int length){
@@ -60,6 +61,7 @@ public class Sax {
                         apellido=false;
                     }
                     if (año){
+                        System.out.print("Año Cursado ");
                         System.out.println(new String(ch,start,length));
                         año=false;
                     }
@@ -67,11 +69,7 @@ public class Sax {
                         System.out.println(new String(ch,start,length));
                         fechaNac=false;
                     }
-                    if (asignatura){
-                        System.out.print(new String(ch,start,length));
-                        System.out.println();
-                        asignatura=false;
-                    }
+
                 }
             };
             InputStream inputStream= Files.newInputStream(path);

@@ -21,7 +21,7 @@ public class Asignatura {
         this.nota=nota;
     }
 
-    @XmlElement
+    @XmlAttribute
 
     public String getNombre() {
         return nombre;
