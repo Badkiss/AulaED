@@ -16,6 +16,7 @@ public class Main {
         Dom.domCrear(primeroD,segundoD);
 
         Sax.mostrar(Paths.get("PrimerCurso.xml"));
+        Sax.mostrarDom(Paths.get("DomPrimero.xml"));
 
         primeroJ=UnMar.unMarshall(Paths.get("PrimerCurso.xml"));
         segundoJ=UnMar.unMarshall(Paths.get("SegundoCurso.xml"));
