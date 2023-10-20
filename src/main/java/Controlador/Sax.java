@@ -49,7 +49,7 @@ public class Sax {
                                     System.out.println("");
                                 }
                 }
-                public void chararcters(char ch[], int start, int length){
+                public void characters(char ch[], int start, int length){
                     if(nombre){
                         System.out.println("Alumno");
                         System.out.println(new String(ch,start,length));
